@@ -21,13 +21,13 @@ This template contains some simple `gulp` tasks. They are as follows:
 
 # Clone down the repo. Run:
 
-- 'npm install'
+- `npm install`
 
-- 'bower install'
+- `bower install`
 
 # Check out a new dev branch:
 
-- 'git checkout -b' [custom branch name, easily recognizable as you]
+- `git checkout -b` [custom branch name, easily recognizable as you]
 
 Consistently pull down from remote dev. Commit often, so you can easily write your commit messages and summarize your work. Inform your fellow devs when you are pushing to dev. Do not push up code that does not pass our gulp watcher. If you run into a merge conflict that's more than a simple line of css or a line spacing issue, communicate it to your fellow devs and decide together what's the best route to take.
 
