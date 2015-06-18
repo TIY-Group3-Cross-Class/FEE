@@ -23,6 +23,7 @@
     "font-awesome": "~4.3.0",
     "bootstrap": "~3.3.5",
     "Cookies": "~1.2.1"
+    "bourbon": "~4.2.3"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
