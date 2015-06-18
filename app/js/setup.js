@@ -10,7 +10,7 @@
   window.app.Views = {};
   window.app.Routers = {};
 
-  app.rootURL = /*API URL*/;
+  app.rootURL = '';
 
   // Will fill out when we get API Documents.
 
