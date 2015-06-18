@@ -21,10 +21,12 @@
     "normalize.css": "~3.0.3",
     "handlebars": "~3.0.3",
     "font-awesome": "~4.3.0",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "Cookies": "~1.2.1"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
-    "chai": "~3.0.0"
+    "chai": "~3.0.0",
+    "Cookies": "~1.2.1"
   }
 }
