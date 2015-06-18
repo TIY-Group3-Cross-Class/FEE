@@ -1,2 +1,28 @@
 * {
   border: 1px solid black; }
+
+ul li {
+  display: inline;
+  float: right;
+  text-decoration: none;
+  margin-top: 1.5%;
+  font-family: lobster; }
+
+a {
+  text-decoration: none;
+  color: #EBA348; }
+
+.body {
+  min-height: 50px; }
+
+.header {
+  height: 150px;
+  width: 715px;
+  background-color: #4182E9; }
+  .header .logo {
+    height: 60px;
+    width: 60px;
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%; }

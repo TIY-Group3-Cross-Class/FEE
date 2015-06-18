@@ -2,12 +2,43 @@
 * {
 	border: 1px solid black;
 }
+// Color Variables
+$bodyblue: #4182E9;
+$font: #EBA348;
+// Elements 
 
-.body {
-	height: 500px;
+ul li {
+	display: inline;
+	float: right;
+	text-decoration: none;
+	margin-top: 1.5%;
+	font-family: lobster;
 }
 
-// linking of bootstrap
+a {
+	text-decoration: none;
+	color: $font;
+}
 
-@import "bootstrap";
+// Classes
 
+.body {
+	min-height: 50px;
+}
+
+.header {
+	height: 150px;
+	width: 715px;
+	background-color: $bodyblue;
+
+	.logo {
+		height: 60px;
+		width: 60px;
+		display: inline;
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+
+		
+	}
+}
