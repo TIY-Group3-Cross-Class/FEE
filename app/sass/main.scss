@@ -28,7 +28,6 @@ a {
 
 .header {
 	height: 150px;
-	width: 715px;
 	background-color: $bodyblue;
 
 	.logo {
@@ -42,3 +41,12 @@ a {
 		
 	}
 }
+
+.footer {
+	height: 75px;
+	width: 715px;
+	background-color: $bodyblue;
+	clear: both;
+}
+
+
