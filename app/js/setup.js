@@ -12,7 +12,7 @@
 
   app.rootURL = '';
 
-  app.rootURL = 'https://sleepy-brook-9224.herokuapp.com/';
+  app.rootURL = 'https://sleepy-brook-9224.herokuapp.com';
 
   $.ajaxSetup ({
     headers: {
