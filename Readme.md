@@ -1,4 +1,4 @@
-## Welcome
+# Welcome
 
 TIY Front-End Engineering repo for Week 6 cross class group project.
 
@@ -17,9 +17,9 @@ This template contains some simple `gulp` tasks. They are as follows:
 - Bootstrap
 - Font Awesome
 
-## Workflow
+# Workflow
 
-# Clone down the repo. Run:
+Clone down the repo. Run:
 
 - `npm install`
 
