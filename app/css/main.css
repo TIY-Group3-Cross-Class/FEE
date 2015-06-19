@@ -11,6 +11,9 @@ a {
   text-decoration: none;
   color: #EBA348; }
 
+button {
+  cursor: pointer; }
+
 .body {
   min-height: 50px; }
 
@@ -20,8 +23,8 @@ a {
   border-bottom: 1px solid black;
   text-align: center; }
   .header .logo {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     display: inline;
     float: left;
     margin-left: 5%;
