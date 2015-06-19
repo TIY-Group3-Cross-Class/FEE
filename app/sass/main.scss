@@ -1,0 +1,52 @@
+// Test, not permanent
+* {
+	border: 1px solid black;
+}
+// Color Variables
+$bodyblue: #4182E9;
+$font: #EBA348;
+// Elements 
+
+ul li {
+	display: inline;
+	float: right;
+	text-decoration: none;
+	margin-top: 1.5%;
+	font-family: lobster;
+}
+
+a {
+	text-decoration: none;
+	color: $font;
+}
+
+// Classes
+
+.body {
+	min-height: 50px;
+}
+
+.header {
+	height: 150px;
+	background-color: $bodyblue;
+
+	.logo {
+		height: 60px;
+		width: 60px;
+		display: inline;
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+
+		
+	}
+}
+
+.footer {
+	height: 75px;
+	width: 715px;
+	background-color: $bodyblue;
+	clear: both;
+}
+
+
