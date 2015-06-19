@@ -27,6 +27,10 @@ a {
 	color: $font;
 }
 
+button {
+	cursor: pointer;
+}
+
 // Classes
 
 
@@ -44,8 +48,8 @@ a {
 
 
 	.logo {
-		height: 60px;
-		width: 60px;
+		height: 80px;
+		width: 80px;
 		display: inline;
 		float: left;
 		margin-left: 5%;
