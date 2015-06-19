@@ -1,6 +1,3 @@
-* {
-  border: 1px solid black; }
-
 ul li {
   display: inline;
   float: right;
@@ -27,7 +24,9 @@ a {
     margin-top: 5%; }
 
 .loginInfo {
-  display: inline; }
+  display: inline;
+  height: 100px;
+  width: 300px; }
   .loginInfo .username {
     width: 150px;
     height: 20px;
@@ -36,7 +35,8 @@ a {
     margin-right: 1.5%;
     background-color: #06C6E7;
     text-align: center;
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin-top: -20px; }
   .loginInfo .password {
     width: 150px;
     height: 20px;
@@ -58,3 +58,7 @@ a {
     font-family: lobster;
     color: #19A228;
     background-color: #1B6396; }
+
+#footer {
+  height: 150px;
+  background-color: #4182E9; }

@@ -2,7 +2,7 @@
 
 'use strict';
 
-app.Views.dashboard = Backbone.Views.Extend({
+app.Views.Dashboard = Backbone.View.extend({
 
 	className: '.dashboard',
 

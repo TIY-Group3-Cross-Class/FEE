@@ -1,7 +1,7 @@
 // Test, not permanent
-* {
-	border: 1px solid black;
-}
+// * {
+// 	border: 1px solid black;
+// }
 // Color Variables
 $bodyblue: #4182E9;
 $font: #EBA348;
@@ -53,6 +53,8 @@ a {
 
 .loginInfo {
 	display: inline;
+	height: 100px;
+	width: 300px;
 
 	.username {
 		width: 150px;
@@ -63,6 +65,7 @@ a {
 		background-color: $inputBG;
 		text-align: center;
 		border-radius: 5px;
+		margin-top: -20px;
 	}
 
 	.password {
@@ -91,4 +94,8 @@ a {
 	}
 }
 
+#footer {
+	height: 150px;
+	background-color: $bodyblue;
+}
 
