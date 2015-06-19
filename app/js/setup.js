@@ -10,7 +10,9 @@
   window.app.Views = {};
   window.app.Routers = {};
 
-  app.rootURL = /*API URL*/;
+  app.rootURL = '';
+
+  app.rootURL = 'http://tiy-515.herokuapp.com/collections/psamp-gameuser';
 
   // Will fill out when we get API Documents.
 

@@ -1,4 +1,4 @@
-## Welcome
+# Welcome
 
 TIY Front-End Engineering repo for Week 6 cross class group project.
 
@@ -19,13 +19,13 @@ This template contains some simple `gulp` tasks. They are as follows:
 
 ## Workflow
 
-# Clone down the repo. Run:
+Clone down the repo. Run:
 
 - `npm install`
 
 - `bower install`
 
-# Check out a new dev branch:
+Check out a new dev branch:
 
 - `git checkout -b` [custom branch name, easily recognizable as you]
 
