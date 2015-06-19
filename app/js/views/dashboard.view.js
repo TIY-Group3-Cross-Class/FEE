@@ -10,7 +10,8 @@ app.Views.Dashboard = Backbone.View.extend({
 
 	initialize: function () {
 		this.render();
-		$('.col-sm-6').html(this.el);
+		$('.col-sm-10').html(this.el);
+
 	},
 
 	render: function () {
