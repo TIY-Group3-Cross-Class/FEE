@@ -98,9 +98,16 @@ a {
   margin-right: auto;
   margin-left: auto;
   margin-top: 10%;
+  margin-bottom: 4%; }
+
+.logout1DB {
+  clear: both;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
   text-align: center;
   color: #19A228;
   background-color: #1B6396;
   border-radius: 5px;
-  border: 2px solid #d6d6d6;
   margin-bottom: 4%; }

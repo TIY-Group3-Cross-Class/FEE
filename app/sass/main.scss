@@ -9,6 +9,7 @@ $button: #19A228;
 $buttonBG: #1B6396;
 $inputBG: #06C6E7;
 $borderColor: #d6d6d6;
+$DborderColor: #6C6C6C;
 // Elements 
 
 ul li {
@@ -141,11 +142,19 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 10%;
+	margin-bottom: 4%;
+}
+
+.logout1DB {
+	clear: both;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
 	text-align: center;
 	color: $button;
 	background-color: $buttonBG;
 	border-radius: 5px;
-	border: 2px solid $borderColor;
 	margin-bottom: 4%;
 }
 
