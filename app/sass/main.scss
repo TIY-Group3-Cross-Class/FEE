@@ -8,6 +8,7 @@ $font: #EBA348;
 $button: #19A228;
 $buttonBG: #1B6396;
 $inputBG: #06C6E7;
+$borderColor: #d6d6d6;
 // Elements 
 
 ul li {
@@ -109,6 +110,7 @@ a {
 	height: 100px;
 	min-width: 150;
 	border-radius: 5px;
+	border: 2px solid $borderColor;
 }
 
 .postDB {
@@ -143,5 +145,7 @@ a {
 	color: $button;
 	background-color: $buttonBG;
 	border-radius: 5px;
+	border: 2px solid $borderColor;
+	margin-bottom: 4%;
 }
 

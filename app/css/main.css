@@ -69,7 +69,8 @@ a {
   margin-left: auto;
   height: 100px;
   min-width: 150;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border: 2px solid #d6d6d6; }
 
 .postDB {
   height: 25px;
@@ -100,4 +101,6 @@ a {
   text-align: center;
   color: #19A228;
   background-color: #1B6396;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border: 2px solid #d6d6d6;
+  margin-bottom: 4%; }
