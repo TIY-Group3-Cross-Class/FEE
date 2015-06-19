@@ -8,7 +8,9 @@
 
     comparator: 'id',
 
-    url: app.rootURL + '/users/signup'
+    // url: app.rootURL + '/users'
+
+    url: app.rootURL
 
   });
 
