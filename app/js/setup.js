@@ -12,14 +12,12 @@
 
   app.rootURL = '';
 
-  app.rootURL = 'http://tiy-515.herokuapp.com/collections/psamp-gameuser';
+  app.rootURL = 'https://sleepy-brook-9224.herokuapp.com/';
 
-  // Will fill out when we get API Documents.
-
-  // $.ajaxSetup ({
-  //   headers: {
-
-  //   }
-  // });
+  $.ajaxSetup ({
+    headers: {
+      'access_token' : 'zzzz'      
+    }
+  });
 
 }());
