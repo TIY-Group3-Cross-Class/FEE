@@ -39,6 +39,7 @@ a {
 	height: 150px;
 	background-color: $bodyblue;
 	border-bottom: 1px solid black;
+	text-align: center;
 
 
 
@@ -51,12 +52,13 @@ a {
 		margin-top: 5%;
 	}
 
-	// .logo2 {
-	// 	width: 500px;
-	// 	display: inline;
-	// 	margin-right: auto;
-	// 	margin-left: 0%;
-	// }
+	.logo2 {
+		width: 70%;
+		display: inline;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 5%;
+	}
 }
 
 .loginInfo {
@@ -125,7 +127,7 @@ a {
 	text-align: center;
 	font-family: lobster;
 	font-size: 2em;
-	
+
 }
 
 .scoreDB {

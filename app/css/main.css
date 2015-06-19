@@ -17,13 +17,20 @@ a {
 .header {
   height: 150px;
   background-color: #4182E9;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  text-align: center; }
   .header .logo {
     height: 60px;
     width: 60px;
     display: inline;
     float: left;
     margin-left: 5%;
+    margin-top: 5%; }
+  .header .logo2 {
+    width: 70%;
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 5%; }
 
 .loginInfo {
