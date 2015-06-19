@@ -38,6 +38,8 @@ a {
 .header {
 	height: 150px;
 	background-color: $bodyblue;
+	border-bottom: 1px solid black;
+	text-align: center;
 
 
 
@@ -50,12 +52,13 @@ a {
 		margin-top: 5%;
 	}
 
-	// .logo2 {
-	// 	width: 500px;
-	// 	display: inline;
-	// 	margin-right: auto;
-	// 	margin-left: 0%;
-	// }
+	.logo2 {
+		width: 70%;
+		display: inline;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 5%;
+	}
 }
 
 .loginInfo {
@@ -104,9 +107,28 @@ a {
 #footer {
 	height: 150px;
 	background-color: $bodyblue;
+	border-top: 1px solid black;
+
+	.logo {
+		height: 60px;
+		width: 60px;
+		display: inline;
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+
+
 }
 
 // Dashboard Styles
+
+.SBBD {
+	text-align: center;
+	font-family: lobster;
+	font-size: 2em;
+
+}
 
 .scoreDB {
 	margin-top: 2%;
@@ -117,6 +139,7 @@ a {
 	border-radius: 5px;
 	border: 2px solid $DborderColor;
 	background-color: $borderColor;
+	font-family: lobster;
 }
 
 .postDB {
@@ -128,6 +151,7 @@ a {
 	float: left;
 	margin-top: 1.5%;
 	border-radius: 5px;
+	font-family: lobster;
 }
 
 .playDB {
@@ -139,6 +163,7 @@ a {
 	float: right;
 	margin-top: 1.5%;
 	border-radius: 5px;
+	font-family: lobster;
 }
 
 .logoutDB {
@@ -161,6 +186,7 @@ a {
 	background-color: $buttonBG;
 	border-radius: 5px;
 	margin-bottom: 4%;
+	font-family: lobster;
 }
 
 // End Dashboard Styling
