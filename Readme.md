@@ -17,7 +17,7 @@ This template contains some simple `gulp` tasks. They are as follows:
 - Bootstrap
 - Font Awesome
 
-# Workflow
+## Workflow
 
 Clone down the repo. Run:
 
@@ -25,7 +25,7 @@ Clone down the repo. Run:
 
 - `bower install`
 
-# Check out a new dev branch:
+Check out a new dev branch:
 
 - `git checkout -b` [custom branch name, easily recognizable as you]
 
