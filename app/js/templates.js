@@ -1,4 +1,8 @@
 this["hbs"] = this["hbs"] || {};
+this["hbs"]["dashboard"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<figure class=\"scoreDB\"></figure>\n\n<button class=\"postDB\">Post</button>\n<button class=\"playDB\">Play</button>\n\n<div class=\"logoutDB\">Logout</div>";
+},"useData":true});
+this["hbs"] = this["hbs"] || {};
 this["hbs"]["example"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var helper;
 
