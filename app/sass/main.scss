@@ -5,6 +5,7 @@
 // Color Variables
 $bodyblue: #4182E9;
 $font: #EBA348;
+$button: #19A228;
 // Elements 
 
 ul li {
@@ -42,11 +43,37 @@ a {
 	}
 }
 
-.footer {
-	height: 75px;
-	width: 715px;
-	background-color: $bodyblue;
-	clear: both;
+.loginInfo {
+	display: inline;
+
+	.username {
+		width: 150px;
+		height: 20px;
+		float: right;
+		clear: both;
+		margin-right: 1.5%;
+	}
+
+	.password {
+		width: 150px;
+		height: 20px;
+		float: right;
+		clear: both;
+		margin-right: 1.5%;
+		margin-top: .25%;
+	}
+
+	.loginButton {
+		float: right;
+		margin-left: 0;
+		margin-right: 1.5%;
+		border-radius: 5px;
+		height: 20px;
+		width: 60px;
+		line-height: 8px;
+		font-family: lobster;
+		color: $button;
+	}
 }
 
 

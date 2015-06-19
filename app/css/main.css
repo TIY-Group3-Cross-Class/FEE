@@ -26,8 +26,28 @@ a {
     margin-left: 5%;
     margin-top: 5%; }
 
-.footer {
-  height: 75px;
-  width: 715px;
-  background-color: #4182E9;
-  clear: both; }
+.loginInfo {
+  display: inline; }
+  .loginInfo .username {
+    width: 150px;
+    height: 20px;
+    float: right;
+    clear: both;
+    margin-right: 1.5%; }
+  .loginInfo .password {
+    width: 150px;
+    height: 20px;
+    float: right;
+    clear: both;
+    margin-right: 1.5%;
+    margin-top: .25%; }
+  .loginInfo .loginButton {
+    float: right;
+    margin-left: 0;
+    margin-right: 1.5%;
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    line-height: 8px;
+    font-family: lobster;
+    color: #19A228; }
