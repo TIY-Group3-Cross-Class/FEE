@@ -33,14 +33,20 @@ a {
     height: 20px;
     float: right;
     clear: both;
-    margin-right: 1.5%; }
+    margin-right: 1.5%;
+    background-color: #06C6E7;
+    text-align: center;
+    border-radius: 5px; }
   .loginInfo .password {
     width: 150px;
     height: 20px;
     float: right;
     clear: both;
     margin-right: 1.5%;
-    margin-top: .25%; }
+    margin-top: .25%;
+    background-color: #06C6E7;
+    text-align: center;
+    border-radius: 5px; }
   .loginInfo .loginButton {
     float: right;
     margin-left: 0;
@@ -50,4 +56,5 @@ a {
     width: 60px;
     line-height: 8px;
     font-family: lobster;
-    color: #19A228; }
+    color: #19A228;
+    background-color: #1B6396; }
