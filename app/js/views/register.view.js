@@ -2,6 +2,8 @@
   
   'use strict';
 
+  var appUsers = new app.Collections.Users();
+
   app.Views.Register = Backbone.View.extend({
 
     className: 'register',
@@ -12,7 +14,7 @@
 
     },
 
-    template: hbs.main,
+    template: hbs.register,
 
     initialize: function(options) {
       var args = options || {};
@@ -20,15 +22,21 @@
       this.collection = args.collection;
 
       this.render();
-      $('.container').html(this.el);
+
+      $('.col-sm-10').html(this.el);
     },
 
     render: function() {
-      this.$el.html(this.template({ user: this.collection.toJSON() }));
+
+      this.$el.html(this.template);
+
     },
 
     userRegister: function(e) {
+
       e.preventDefault();
+
+      // cache current 'this', grab form variables
 
       var that = this,
           form = $(event.target),
@@ -37,21 +45,35 @@
           email = form.find('#userEmail').val(),
           password = form.find('#userPassword').val();
 
-      var u = new app.Models.User({
+      // new user object with attributes = to form values
+
+      var u = {
         email: email,
         password: password,
         username: username,
         full_name: fn
-      })
+      };
 
-      this.collection.add(u).save().success(function () {
-       
-       that.render();
-      
+      // create new instance of user model, with u passed in
+
+      var userInstance = new app.Models.User(u);
+
+      appUsers.add(userInstance);
+
+      console.log(appUsers);
+
+      $.post(app.rootURL + '/users/signup', userInstance.toJSON()).success( function (data) {
+
+        Cookies.set('access_token', data.access_token);
+        Cookies.set('username', data.username);
+
+        console.log(userInstance);
+
       });
 
     }
 
   });
+
 
 }());

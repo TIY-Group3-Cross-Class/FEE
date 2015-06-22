@@ -14,6 +14,12 @@
         'dashboard' : 'userDash',
         'post/:id' : 'gamePage',
         'about' : 'aboutPage'
+      },
+
+      userRegister: function () {
+        new app.Views.Register({
+          collection: this.collection
+        })
       }
 
   });
