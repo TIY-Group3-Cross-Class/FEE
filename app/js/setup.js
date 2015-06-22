@@ -10,7 +10,7 @@
   window.app.Views = {};
   window.app.Routers = {};
 
-  app.rootURL = 'https://sleepy-brook-9224.herokuapp.com';
+  app.rootURL = 'https://www.sleepy-brook-9224.herokuapp.com';
 
   $.ajaxSetup ({
     

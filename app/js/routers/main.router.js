@@ -5,7 +5,7 @@
   app.Routers.MainRouter = Backbone.Router.extend({
 
       initialize: function(options) {
-        this.collection = options.collection;
+        // this.collection = options.collection;
       },
 
       routes: {
@@ -18,6 +18,12 @@
 
       userRegister: function () {
         new app.Views.Register({
+          collection: this.collection
+        })
+      },
+
+      userDash: function() {
+        new app.Views.Dashboard ({
           collection: this.collection
         })
       }

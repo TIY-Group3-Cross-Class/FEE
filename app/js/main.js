@@ -13,4 +13,8 @@
 
   // End of Test for Register
 
+  app.mainRouter = new app.Routers.MainRouter;
+
+  Backbone.history.start();
+
 }());
