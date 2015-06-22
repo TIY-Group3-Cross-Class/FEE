@@ -69,7 +69,12 @@
 
         console.log(userInstance);
 
+        app.mainRouter.navigate('dashboard', {trigger: true} );
+        // app.dashboard = new app.Views.Dashboard();
+
       });
+
+
 
     }
 
