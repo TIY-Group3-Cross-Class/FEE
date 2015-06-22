@@ -21,7 +21,8 @@ button {
   height: 150px;
   background-color: #4182E9;
   border-bottom: 1px solid black;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px; }
   .header .logo {
     height: 80px;
     width: 80px;
