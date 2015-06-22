@@ -1,5 +1,5 @@
 ;(function (){
-  
+
   'use strict';
 
   app.Models.Post = Backbone.Model.extend({
@@ -11,7 +11,7 @@
       owner: '',
       answer: '',
       guesses: '',
-      solution:''
+
     }
 
   });
