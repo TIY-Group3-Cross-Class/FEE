@@ -1,5 +1,223 @@
+<<<<<<< HEAD
 $color: #ffffff
 
 .container{
   color: $color;
 }
+=======
+// Test, not permanent
+// * {
+// 	border: 1px solid black;
+// }
+// Color Variables
+$bodyblue: #4182E9;
+$font: #EBA348;
+$button: #19A228;
+$buttonBG: #1B6396;
+$inputBG: #06C6E7;
+$borderColor: #d6d6d6;
+$DborderColor: #6C6C6C;
+// Elements 
+
+ul li {
+	display: inline;
+	float: right;
+	text-decoration: none;
+	margin-top: 1.5%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: lobster;
+}
+
+a {
+	text-decoration: none;
+	color: $font;
+}
+
+button {
+	cursor: pointer;
+}
+
+// Classes
+
+
+
+.body {
+	min-height: 50px;
+}
+
+.header {
+	height: 150px;
+	background-color: $bodyblue;
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin-bottom:50px;
+
+
+
+	.logo {
+		height: 80px;
+		width: 80px;
+		display: inline;
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+
+	.logo2 {
+		width: 70%;
+		display: inline;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 5%;
+	}
+}
+
+.loginInfo {
+	display: inline;
+	height: 100px;
+	width: 300px;
+
+	.username {
+		width: 150px;
+		height: 20px;
+		float: right;
+		clear: both;
+		margin-right: 1.5%;
+		background-color: $inputBG;
+		text-align: center;
+		border-radius: 5px;
+		margin-top: -20px;
+	}
+
+	.password {
+		width: 150px;
+		height: 20px;
+		float: right;
+		clear: both;
+		margin-right: 1.5%;
+		margin-top: .35%;
+		background-color: $inputBG;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.loginButton {
+		float: right;
+		margin-left: 0;
+		margin-right: 1.5%;
+		border-radius: 5px;
+		height: 20px;
+		width: 60px;
+		line-height: 8px;
+		font-family: lobster;
+		color: $button;
+		background-color: $buttonBG;
+	}
+}
+
+#footer {
+	height: 150px;
+	background-color: $bodyblue;
+	border-top: 1px solid black;
+
+	.logo {
+		height: 60px;
+		width: 60px;
+		display: inline;
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+
+
+}
+
+// Dashboard Styles
+
+.SBBD {
+	text-align: center;
+	font-family: lobster;
+	font-size: 2em;
+
+}
+
+.scoreDB {
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+	min-width: 150;
+	border-radius: 5px;
+	border: 2px solid $DborderColor;
+	background-color: $borderColor;
+	font-family: lobster;
+}
+
+.postDB {
+	height: 25px;
+	color: $button;
+	background-color: $buttonBG;
+	width: 120px;
+	display: inline;
+	float: left;
+	margin-top: 1.5%;
+	border-radius: 5px;
+	font-family: lobster;
+}
+
+.playDB {
+	height: 25px;
+	color: $button;
+	background-color: $buttonBG;
+	width: 120px;
+	display: inline;
+	float: right;
+	margin-top: 1.5%;
+	border-radius: 5px;
+	font-family: lobster;
+}
+
+.logoutDB {
+	clear: both;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	margin-bottom: 4%;
+}
+
+.logout1DB {
+	clear: both;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	text-align: center;
+	color: $button;
+	background-color: $buttonBG;
+	border-radius: 5px;
+	margin-bottom: 4%;
+	font-family: lobster;
+}
+
+// End Dashboard Styling
+
+
+
+// Main View Styling
+
+// End Main View Styling
+
+
+
+// Register Styling
+
+// End Register Styling
+
+
+
+
+
+
+>>>>>>> 5d55f433284362405e773a08f50de2365ddd165f

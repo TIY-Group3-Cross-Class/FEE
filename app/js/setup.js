@@ -10,16 +10,21 @@
   window.app.Views = {};
   window.app.Routers = {};
 
-  app.rootURL = '';
+  app.rootURL = 'https://sleepy-brook-9224.herokuapp.com';
 
-  app.rootURL = 'http://tiy-515.herokuapp.com/collections/psamp-gameuser';
+  $.ajaxSetup ({
+    
+    headers: {
+      'access_token' : Cookies.get('access_token') 
+    }
+  });
 
-  // Will fill out when we get API Documents.
+  app.isLoggedIn = (Cookies.get('access_token') !== undefined) ? true : false;
 
-  // $.ajaxSetup ({
-  //   headers: {
-
-  //   }
-  // });
+    if(app.isLoggedIn) {
+      console.log('Yep, logged in.');
+    } else {
+      console.log('Nope, not logged in.');
+    }
 
 }());
